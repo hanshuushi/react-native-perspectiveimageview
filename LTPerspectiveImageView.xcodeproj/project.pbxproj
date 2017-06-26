@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8EEB4FBA1F00B9870083F7ED /* LTPerspectiveImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEB4FB91F00B9870083F7ED /* LTPerspectiveImageView.m */; };
 		8EEB4FBB1F00B9870083F7ED /* LTPerspectiveImageView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8EEB4FB81F00B9870083F7ED /* LTPerspectiveImageView.h */; };
+		8EEB50201F00DCB80083F7ED /* LTPerspectiveImageViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEB501F1F00DCB80083F7ED /* LTPerspectiveImageViewManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		8EEB4FB51F00B9870083F7ED /* libLTPerspectiveImageView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLTPerspectiveImageView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EEB4FB81F00B9870083F7ED /* LTPerspectiveImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTPerspectiveImageView.h; sourceTree = "<group>"; };
 		8EEB4FB91F00B9870083F7ED /* LTPerspectiveImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTPerspectiveImageView.m; sourceTree = "<group>"; };
+		8EEB501E1F00DCB80083F7ED /* LTPerspectiveImageViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPerspectiveImageViewManager.h; sourceTree = "<group>"; };
+		8EEB501F1F00DCB80083F7ED /* LTPerspectiveImageViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPerspectiveImageViewManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				8EEB4FB81F00B9870083F7ED /* LTPerspectiveImageView.h */,
 				8EEB4FB91F00B9870083F7ED /* LTPerspectiveImageView.m */,
+				8EEB501E1F00DCB80083F7ED /* LTPerspectiveImageViewManager.h */,
+				8EEB501F1F00DCB80083F7ED /* LTPerspectiveImageViewManager.m */,
 			);
 			path = LTPerspectiveImageView;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EEB4FBA1F00B9870083F7ED /* LTPerspectiveImageView.m in Sources */,
+				8EEB50201F00DCB80083F7ED /* LTPerspectiveImageViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +266,7 @@
 				8EEB4FC01F00B9870083F7ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
